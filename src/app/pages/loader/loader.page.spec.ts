@@ -33,8 +33,6 @@ describe('LoaderPage', () => {
 
     component.ngOnInit();
 
-    tick(1500);
-
     expect(router.navigate).toHaveBeenCalledWith(['login']);
   });
 });
